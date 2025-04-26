@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "currency-exchange-service"
         DOCKERHUB_USERNAME = "likhith2k"
-        DOCKERHUB_CREDENTIALS_ID = "dockerhub-creds"
+        DOCKERHUB_CREDENTIALS_ID = "dockerhub-cred"
     }
 
     stages {
